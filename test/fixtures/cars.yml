@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Manufacturer: MyString
+  License_plate: MyString
+  photo: MyString
+
+two:
+  Manufacturer: MyString
+  License_plate: MyString
+  photo: MyString

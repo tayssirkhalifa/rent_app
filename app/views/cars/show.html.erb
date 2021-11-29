@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+<div class="col-6" style="margin:0 auto ; " >
+<div class="mb-3">
+<div class="card" style="width: 50rem;">
+  <div class="col-6" style="margin:0 auto ; " >
+<div class="mb-3">
+  <div class="card-body">
+    
+    <p class="card-text">
+      
+
+      <p>
+ </div></div>
+  <%= image_tag(@car.photo,style:'width:100%')  %>
+</p>
+<p>
+  <strong>License plate:</strong>
+  <%= @car.License_plate %>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @car.Manufacturer %>
+</p>
+    </p>
+    <%= link_to 'Edit', edit_car_path(@car) ,class:"btn btn-outline-secondary" ,style:"margin:0 auto ; "%> 
+<%= link_to 'Back', cars_path ,class:"btn btn-outline-secondary" , style:"margin:0 auto ; "%>
+  </div>
+</div>
+</br>
+<div style="width: 30rem;">
+
+</div></div>
